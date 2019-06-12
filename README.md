@@ -3,6 +3,12 @@
 This repository is an attempt to collect scripts together to make my entire (MacOS) system entirely reproducable.
 See Mina Markham's setup for details
 
+## zsh 
+
+I'm hoping that just copy-pasting the .zshrc and .zsh_history files will be good enough to install all my other zsh things like z, the command checker, etc?
+.zshrc is for configuration 
+.zsh_history is to capture the history of all the commands I've run previously, etc.
+
 ## ITerm2
 Dotfiles created following (this blog post)[stratus3d.com/blog/2015/02/28/sync-iterm2-profile-with-dotfiles-repository/]
 
