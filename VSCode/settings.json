@@ -1,0 +1,22 @@
+{
+    "window.zoomLevel": 1,
+    "workbench.startupEditor": "welcomePage",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.colorTheme": "fairyfloss",
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "sync.gist": "b6b8c65c3bbddac0ea6199b8e3c91b8a"
+}
