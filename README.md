@@ -8,6 +8,15 @@ Dotfiles created following (this blog post)[stratus3d.com/blog/2015/02/28/sync-i
 
 To Restore settings, check the “Load preferences from folder” option in Preferences and navigate to the file that already exists inside your dotfile repository.
 
+You actually don’t have to use the iTerm2 GUI to load the preferences. It’s possible load them from the command line. This makes it easy to load them from a setup script in your dotfile repository. All you need are these two commands:
+
+```
+# Specify the preferences directory
+defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/.dotfiles/iTerm2"
+# Tell iTerm2 to use the custom preferences in the directory
+defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
+```
+
 ## VSCode 
 Dotfiles created following (this blog post)[https://pawelgrzybek.com/sync-vscode-settings-and-snippets-via-dotfiles-on-github/]
 
